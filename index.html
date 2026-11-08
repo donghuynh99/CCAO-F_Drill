@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Bộ luyện thi CCAO-F (Claude Certified Associate – Foundations): thi thử, luyện theo domain, kiến thức, thẻ ghi nhớ, sổ câu sai.">
+<title>CCAO-F Drill</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231B1A2E'/%3E%3Cpath d='M8 17l5 5 11-12' stroke='%23F59E6B' stroke-width='3.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Sora:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script>
+  try { var t = localStorage.getItem('ccaof.theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+</script>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brandrow">
+      <a class="brand" href="#/"><span class="code">CCAO-F</span> Drill</a>
+      <button class="themebtn" id="themeBtn" type="button" aria-label="Đổi giao diện sáng/tối" title="Sáng / tối"></button>
+    </div>
+    <nav class="nav" aria-label="Mục chính">
+      <a href="#/" data-nav="home">Luyện thi</a>
+      <a href="#/study" data-nav="study">Kiến thức</a>
+      <a href="#/cards" data-nav="cards">Thẻ ghi nhớ</a>
+      <a href="#/log" data-nav="log">Sổ câu sai</a>
+      <a href="#/guide" data-nav="guide">Chiến thuật &amp; mẹo</a>
+      <a href="#/review" data-nav="review">Ôn nhanh</a>
+    </nav>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <footer class="foot">
+    Bộ luyện tập độc lập, không liên kết hay được Anthropic xác nhận. Câu hỏi là câu tự soạn, không phải đề thật.
+    Nội dung dựa trên exam guide CCAO-F v1.0 và tài liệu Anthropic (support.claude.com, platform.claude.com) tính tới 10/2026.
+    Anthropic cập nhật nội dung đề ngày 07/12/2026 — hãy đối chiếu guide mới.
+  </footer>
+</div>
+
+<script src="data/domains.js"></script>
+<script src="data/q-pt-oe.js"></script>
+<script src="data/q-ps-wi.js"></script>
+<script src="data/q-ck-gr-to.js"></script>
+<script src="data/guide.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
